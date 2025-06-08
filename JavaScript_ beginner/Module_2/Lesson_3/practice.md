@@ -18,9 +18,11 @@
   ```javascript
   condition ? valueIfTrue : valueIfFalse;
 
-	•	يمكنك تعيين الناتج إلى متغير أو طباعته مباشرة.
+		يمكنك تعيين الناتج إلى متغير أو طباعته مباشرة
+	```
 
 ✅ الحل النموذجي:
+
 ```javascript
 let isMember = true;
 
