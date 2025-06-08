@@ -95,20 +95,20 @@ sayBye(); // الناتج: Bye!
 
 جرب كليهما في المحرر الخاص بك:
 ```javascript
-// تعريف دالة
-function welcome() {
+
+function welcome() {  // تعريف دالة
   console.log("Welcome!");
 }
 welcome();
 
-// تعبير دالة
-const goodbye = function() {
+
+const goodbye = function() {  // تعبير دالة
   console.log("Goodbye!");
 };
 
 goodbye();
 ```
-حاول استدعاء `goodbye();` قبل تعريفها. ماذا يحدث؟
+حاول استدعاء `;()goodbye` قبل تعريفها. ماذا يحدث؟
 
 ---
 
