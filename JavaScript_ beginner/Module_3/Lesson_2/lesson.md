@@ -60,6 +60,7 @@ introduce("Liam", 21);
 
 جافاسكريبت لن تُظهر خطأ. بدلاً من ذلك:
 *	**عدد قليل جدًا من الوسائط:** المعاملات المفقودة تكون `undefined`.
+
     ```javascript
     function sayName(name, title) {
       console.log(title + " " + name);
@@ -67,6 +68,7 @@ introduce("Liam", 21);
 
     sayName("Jordan"); // الناتج: undefined Jordan
     ```
+    
 *	**عدد كبير جدًا من الوسائط:** يتم تجاهل القيم الإضافية.
     ```javascript
     function greet(name) {
