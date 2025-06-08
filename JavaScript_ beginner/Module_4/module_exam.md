@@ -89,6 +89,7 @@ let contact = {
 describe: function() {
   console.log(`Title: ${this.title}, Genre: ${this.genre}, Rating: ${this.rating}`);
 }
+```
 ---
 
 
