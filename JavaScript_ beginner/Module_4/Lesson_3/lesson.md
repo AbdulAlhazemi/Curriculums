@@ -90,7 +90,6 @@ console.log(user);
 delete user.rank;
 console.log(user); // الناتج: { username: "coder123", score: 200 } (تم حذف rank)
 ```
-*(Note: The exact output in the comment is more precise, so I've added it)*
 
 ---
 
