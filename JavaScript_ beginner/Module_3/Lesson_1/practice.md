@@ -11,18 +11,18 @@
 ### ✅ الحل النموذجي:
 
 ```javascript
-// تعريف دالة
-function greetUser() {
+function greetUser() {// تعريف دالة
+
   console.log("Welcome back!");
 }
 
-// تعبير دالة
-const logOutUser = function() {
+const logOutUser = function() {// تعبير دالة
+
   console.log("Goodbye!");
 }
 
-// استدعاء الدالتين
-greetUser();
+
+greetUser();// استدعاء الدالتين
 logOutUser();
 ```
 💡 ملاحظات:
