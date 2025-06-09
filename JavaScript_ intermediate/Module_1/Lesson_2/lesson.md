@@ -97,7 +97,7 @@ items.forEach(item => {
 });
 ```
 
-✅ `querySelectorAll()` تعطيك `NodeList` — وهي تشبه المصفوفة، ويمكنك استخدام `.forEach()` معها.
+✅ تُعيد الدالة ()querySelectorAll كائناً من نوع NodeList — وهي مجموعة تشبه المصفوفة، ويمكنك استخدام ()forEach. للتكرار على عناصرها.
 
 ---
 
