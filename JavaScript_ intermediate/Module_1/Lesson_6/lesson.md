@@ -40,45 +40,45 @@
 
 📝 **هيكل كود نموذجي:**
 
- تحديد العناصر
+تحديد العناصر
 
 ```javascript
 const input = document.querySelector("#task-input");
 const addBtn = document.querySelector("#add-task-btn");
 const taskList = document.querySelector("#task-list");
 ```
- :إضافة مهمة جديدة
+إضافة مهمة جديدة
 
 ```javascript
 addBtn.addEventListener("click", () => {
   const taskText = input.value.trim();
   if (taskText === "") return;
 ```
- :إنشاء عناصر مهمة
+إنشاء عناصر مهمة
 
   ```javascript
   const li = document.createElement("li");
   li.textContent = taskText;
 ```
 
-   :إضافة زر الحذف
+إضافة زر الحذف
 ```javascript
 
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete";
   li.appendChild(deleteBtn);
 ```
- :إلحاق المهمة بالقائمة
+إلحاق المهمة بالقائمة
 ```javascript
   
   taskList.appendChild(li);
   ```
- :مسح حقل الإدخال
+مسح حقل الإدخال
 ```javascript
   
   input.value = "";
 ```
- :حدث حذف المهمة
+حدث حذف المهمة
 ```javascript
   
   deleteBtn.addEventListener("click", () => {
