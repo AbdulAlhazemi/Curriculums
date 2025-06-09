@@ -41,7 +41,7 @@
 📝 **هيكل كود نموذجي:**
 
 ```javascript
-// javaScript
+
 // تحديد العناصر
 const input = document.querySelector("#task-input");
 const addBtn = document.querySelector("#add-task-btn");
