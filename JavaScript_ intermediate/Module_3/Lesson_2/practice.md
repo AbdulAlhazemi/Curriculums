@@ -7,9 +7,8 @@
       { name: "Carol", age: 19 }
     ];
 
-    
+    // الناتج: [ { name: "Bob", age: 22 }, { name: "Carol", age: 19 } ]
     ```
-     الناتج: [ { name: "Bob", age: 22 }, { name: "Carol", age: 19 } ]
 2.	استخدم `()reduce.` للحصول على السعر الإجمالي:
     ```javascript
     const cart = [
