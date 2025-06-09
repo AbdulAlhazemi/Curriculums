@@ -8,4 +8,4 @@ function Book(title, author) {
   this.author = author;
 }
 ```
-أضف دالة `read()` إلى `Book.prototype` تقوم بطباعة “Reading [title]”.
+أضف دالة `()read` إلى `Book.prototype` تقوم بطباعة “Reading [title]”.
