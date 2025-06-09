@@ -5,7 +5,8 @@
       { name: "Alice", age: 17 },
       { name: "Bob", age: 22 },
       { name: "Carol", age: 19 }
-    ];// [ { name: "Bob", age: 22 }, { name: "Carol", age: 19 } ]
+    ];
+    // [ { name: "Bob", age: 22 }, { name: "Carol", age: 19 } ]
 
     
     ```
