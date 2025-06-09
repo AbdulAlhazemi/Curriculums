@@ -15,8 +15,8 @@
       { item: "Book", price: 12.99 },
       { item: "Pen", price: 1.99 },
       { item: "Notebook", price: 5.49 }
-    ];
+    ];//20.47
 
     
     ```
-     الناتج: 20.47
+     
