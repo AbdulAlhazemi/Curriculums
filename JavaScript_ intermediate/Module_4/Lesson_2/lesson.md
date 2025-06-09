@@ -70,7 +70,7 @@ console.log(myCar); // الناتج: undefined
 	
 •	الكائن العام (window) في الوضع العادي (non-strict).
 	
-•	undefined في الوضع الصارم ('use strict').
+•	في الوضع الصارم ('use strict')، تكون القيمة الافتراضية لـ this داخل الدالة هي undefined
 	
 •	وبالتالي، لا يتم إنشاء كائن جديد وربطه بـ this.
 
