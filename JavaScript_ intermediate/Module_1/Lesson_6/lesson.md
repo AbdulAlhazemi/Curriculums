@@ -63,14 +63,12 @@ addBtn.addEventListener("click", () => {
 
 إضافة زر الحذف
 ```javascript
-
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete";
   li.appendChild(deleteBtn);
 ```
 إلحاق المهمة بالقائمة
 ```javascript
-  
   taskList.appendChild(li);
   ```
 مسح حقل الإدخال
@@ -80,7 +78,6 @@ addBtn.addEventListener("click", () => {
 ```
 حدث حذف المهمة
 ```javascript
-  
   deleteBtn.addEventListener("click", () => {
     taskList.removeChild(li);
   });
